@@ -275,10 +275,7 @@
                 <InArgument x:TypeArguments="x:Int32">1</InArgument>
               </Assign.Value>
             </Assign>
-            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="526,1564" sap2010:WorkflowViewState.IdRef="DoWhile_1">
-              <DoWhile.Condition>
-                <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="Counter &lt; 3" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_4" />
-              </DoWhile.Condition>
+            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="526,1564" sap2010:WorkflowViewState.IdRef="DoWhile_1" Condition="[Counter &lt; resumeCount]">
               <Sequence sap:VirtualizedContainerService.HintSize="460,1399.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
